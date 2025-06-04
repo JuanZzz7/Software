@@ -66,7 +66,7 @@ class UsuariosController {
                 nombre: nombre,
                 apellidos: apellidos,
                 email: email,
-                fechaCreacion: new Date().toISOString()
+                //fechaCreacion: new Date().toISOString()
             };
 
             console.log("Intentando guardar en Firebase:", userData);
