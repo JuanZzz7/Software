@@ -156,7 +156,7 @@ exports.handler = async (event, context) => {
                 nombre: nombre.toString(),
                 apellidos: apellidos.toString(),
                 email: email.toString(),
-                fechaCreacion: new Date().toISOString()
+                //fechaCreacion: new Date().toISOString()
             };
 
             console.log('Guardando en Firebase:', userData);
